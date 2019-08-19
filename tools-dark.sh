@@ -1,14 +1,14 @@
 clear
 echo
 echo
-python2 password.py
+echo
 echo
 clear
 echo
 cyan='\033[36;1m'
 ungu='\033[35;1m'
-figlet selamat | lolcat
-figlet datang | lolcat
+figlet Halo | lolcat
+figlet KONTOL:) | lolcat
 sleep 2
 clear
 echo $ungu "
@@ -21,9 +21,9 @@ echo $cyan "
 echo $ungu "
       █▀▀▀▀▀▀▀▀| ✔ |▀▀▀▀▀▀▀▀█"
 echo $cyan "
-       ✔Author  :Lao'neis agung
-       ✔Fb    :lao'neis agung
-       ✔Youtube :Hacker online"
+       ✔Author  :FAJAR FERDINAN (Jay)
+       ✔Fb    : RAHASIA
+       
 echo $ungu "
       ┗─══─━══─| ✔ |─══━─══─┛"
 echo $ungu "
