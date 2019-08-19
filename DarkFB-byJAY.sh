@@ -7,8 +7,8 @@ clear
 echo
 cyan='\033[36;1m'
 ungu='\033[35;1m'
-figlet selamat | lolcat
-figlet datang | lolcat
+figlet JAY | lolcat
+figlet GANTENG :V | lolcat
 sleep 2
 clear
 echo $ungu "
@@ -18,9 +18,9 @@ echo $cyan "
           (ಠ益ಠ)
           <,︻╦╤─ - - - MATI LOH AJG
           _/﹋\_"
-echo $ungu "
+echo $purple "
       █▀▀▀▀▀▀▀▀| ✔ |▀▀▀▀▀▀▀▀█"
-echo $cyan "
+echo $red "
        ✔Author  :Mr.F0RB1D3N
        ✔Fb    :RAHASIA SLURR:)
             LO KONTOL :V
