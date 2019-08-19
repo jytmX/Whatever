@@ -1,7 +1,7 @@
 clear
 echo
 echo
-python2 password.py
+echo
 echo
 clear
 echo
@@ -21,12 +21,12 @@ echo $cyan "
 echo $ungu "
       █▀▀▀▀▀▀▀▀| ✔ |▀▀▀▀▀▀▀▀█"
 echo $cyan "
-       ✔Author  :Lao'neis agung
-       ✔Fb    :lao'neis agung
-       ✔Youtube :Hacker online"
-echo $ungu "
+       ✔Author  :Mr.F0RB1D3N
+       ✔Fb    :RAHASIA SLURR:)
+            LO KONTOL :V
+echo $biru "
       ┗─══─━══─| ✔ |─══━─══─┛"
-echo $ungu "
+echo $merah "
 ===================================="
 sleep 2
 
