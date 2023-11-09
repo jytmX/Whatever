@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# royal elementor unath AFU
 import requests
 import time
 import re
@@ -48,9 +47,14 @@ def gas(url):
 
 if __name__ == '__main__':
     os.system('cls' if os.name == 'nt' else 'clear')
-    print("{} CVE-2023-5360  | {}Shin Code\n".format(y, c))
-    url_list = open(input('List:~# '), 'r').read().replace('http://', '').replace('https://', '').splitlines()
-    
+    print "{} CVE-2023-5360  | {}Shin Code\n".format(y,c)
+    file_name = raw_input('Enter the filename (e.g., list.txt): ')
+    try:
+        with open(file_name, 'r') as file:
+            url_list = file.read().splitlines()
+    except IOError:
+        print 'File not found. Make sure the file exists in the same directory as this script.'
+
     threads = []
     for url in url_list:
         t = threading.Thread(target=gas, args=(url,))
@@ -59,4 +63,4 @@ if __name__ == '__main__':
 
     for t in threads:
         t.join()
-          
+        
