@@ -1,0 +1,39 @@
+id: responsive-filemanager-detection
+
+info:
+  name: Responsive FileManager Detection
+  author: YourName
+  severity: info
+  description: Detects the presence of the Responsive FileManager panel.
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/filemanager/dialog.php"
+      - "{{BaseURL}}/assets/filemanager/dialog.php"
+      - "{{BaseURL}}/js/filemanager/dialog.php"
+      - "{{BaseURL}}/files/filemanager/dialog.php"
+      - "{{BaseURL}}/assets/tinymce/filemanager/dialog.php"
+      - "{{BaseURL}}/js/tinymce/plugins/filemanager/dialog.php"
+      - "{{BaseURL}}/assets/plugins/filemanager/dialog.php"
+      - "{{BaseURL}}/assets/plugin/filemanager/dialog.php"
+      - "{{BaseURL}}/tinymce/js/tinymce/plugins/filemanager/dialog.php"
+      - "{{BaseURL}}/lib/filemanager/dialog.php"
+      - "{{BaseURL}}/public/filemanager/dialog.php"
+      - "{{BaseURL}}/admin/filemanager/dialog.php"
+      - "{{BaseURL}}/lib/filemanager/dialog.php"
+      - "{{BaseURL}}/administrator/plugins/filemanager/dialog.php"
+      - "{{BaseURL}}/administrator/plugin/filemanager/dialog.php"
+      - "{{BaseURL}}/administrator/filemanager/dialog.php
+      - "{{BaseURL}}/filemanager/filemanager/dialog.php
+      - "{{BaseURL}}/assets/filemanager/filemanager/dialog.php"
+
+    matchers-condition: and
+    matchers:
+      - type: status
+        status:
+          - 200
+      - type: word
+        words:
+          - "Responsive FileManager"
+        part: body
